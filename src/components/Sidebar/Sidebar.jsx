@@ -20,7 +20,9 @@ const Sidebar = ({bookmarked, totalReadTime}) => {
             <div className="mt-6 p-4 rounded-lg bg-[#1111110D]">
                 <h1 className="text-2xl font-bold">Bookmarked Blogs : {bookmarked.length}</h1>
                 <div>
-                    
+                    {
+                       bookmarked.map(bookmarked => <h1 className="bg-white text-xl font-bold rounded-lg p-4 my-4" key={bookmarked.id}>{bookmarked.title}</h1>) 
+                    }
                 </div>
             </div>
         </div>
