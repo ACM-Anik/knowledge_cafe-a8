@@ -3,9 +3,11 @@ import Sidebar from '../Sidebar/Sidebar';
 import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blogs.css';
 
+
 const Blogs = () => {
 
     const [blogs, setBlogs] = useState([]);
+    const [bookmarked, setBookmarked] = useState([]);
     const [totalReadTime, setTotalReadTime] = useState(0);
 
     useEffect(() => {
@@ -14,19 +16,18 @@ const Blogs = () => {
             .then(data => setBlogs(data));
     }, []);
 
-
-    // const addBookmark = (id) =>{
-        // let markedItem = [];
-        // const exist = bookmark.find(marked => marked.id === id);
-        // if(exist) {
-        //     alert('already existed');
-        // }
-        // else{
-        //     const bookmarkItem = blogs.find(blog => blog.id === id);
-        // }
-    // }
-
-
+    const addBookmark = (id) =>{
+        const exist = bookmarked.find(marked => marked.id === id);
+        if(exist) {
+            
+            return;
+        }
+        else{
+            const bookmarkedItem = blogs.find(blog => blog.id === id);
+            let markedItem = [...bookmarked, bookmarkedItem];
+            setBookmarked(markedItem);
+        }
+    }
 
     const addReadTime = (readTime) =>{
         // console.log(readTime);
@@ -52,12 +53,13 @@ const Blogs = () => {
                     blogs.map(blog => <SingleBlog 
                         blog={blog} 
                         key={blog.id}
+                        addBookmark={addBookmark}
                         addReadTime ={addReadTime}
                         ></SingleBlog>)
                 }
             </div>
             <div className="md:col-span-2 mb-8">
-                <Sidebar totalReadTime={totalReadTime}></Sidebar>
+                <Sidebar totalReadTime={totalReadTime} bookmarked={bookmarked}></Sidebar>
             </div>
         </div>
     );
