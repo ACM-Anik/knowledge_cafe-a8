@@ -7,8 +7,8 @@ const Questions = () => {
             <div>
                 <h1 className="text-center text-4xl font-bold ">Frequently Common <span className="text-[#6047EC]">Questions</span></h1>
             </div>
-            <div className="my-6 p-4 md:p-8 rounded-lg bg-[#1111110D]">
-                <div className="bg-white rounded-lg p-4 my-4">
+            <div className="my-5 py-2 px-4 md:p-8 rounded-lg bg-[#1111110D]">
+                <div className="bg-white rounded-lg p-4 my-2">
                     <h1 className="text-2xl font-bold my-3">1. Props vs state:-</h1>
                     <div className="md:flex md:justify-between md:gap-5">
                         <p className="text-lg font-semibold font-mono">Props: <br />
@@ -35,7 +35,7 @@ const Questions = () => {
                         Managing side effects such as setting up and tearing down timers, subscriptions, and event listeners. It Integrates with third-party libraries, animates component transitions, update the document title based on state or props, handles user authentication and authorization, handles browser or network events, updates the URL or navigating to a different page, updates global state outside of React.
                     </p>
                 </div>
-                <div className="bg-white rounded-lg p-4 my-4">
+                <div className="bg-white rounded-lg p-4 my-2">
                     <h1 className="text-2xl font-bold my-3">4. How Does React work?</h1>
                     <p className="text-lg font-semibold font-mono">
                         React is a JavaScript library that is used for building user interfaces. React uses a component-based architecture, which means that UI elements are broken down into reusable components. When a user interacts with a React-based application, the browser sends an event to the application. React then updates the UI by modifying the state of the components. This process is called rendering. React uses a virtual DOM to efficiently update the UI. The virtual DOM is a lightweight copy of the actual DOM that React keeps in memory. When the state of a component changes, React updates the virtual DOM and then calculates the minimal set of changes required to update the actual DOM. This approach is much faster than updating the entire DOM. React also supports server-side rendering, which allows the initial rendering of the application to be done on the server rather than in the browser.
