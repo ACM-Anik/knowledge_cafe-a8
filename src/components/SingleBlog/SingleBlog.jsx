@@ -5,21 +5,23 @@ const SingleBlog = (props) => {
     console.log(props.blog)
     const { id, cover_picture, picture, author_name, author_image, title, publish_date, read_time } = props.blog;
     return (
-        <div className="border border-2 w-[580px]">
-            <img src={cover_picture} alt="" />
-            <div className="flex justify-between">
-                <div>
+        <div className="border-2 my-5 rounded-lg shadow-sm">
+            <div>
+                <img className="rounded-lg" style={{height:'500px', width:'100%'}} src={cover_picture} alt="cover picture"/>
+            </div>
+            <div className="flex justify-between my-4 p-4">
+                <div className="flex justify-between gap-5">
                     <div>
-                        <img src={author_image} alt="" />
+                        <img className="w-[42px] h-[42px] rounded-full" src={author_image} alt="" />
                     </div>
                     <div>
-                        <h5>{author_name}</h5>
-                        <p>{publish_date}</p>
+                        <h5 className="text-lg font-bold">{author_name}</h5>
+                        <p className="text-base font-semibold text-[#11111199]">{publish_date}</p>
                     </div>
                 </div>
-                <div>
-                    <p>{read_time}</p>
-                    <label><i ></i></label>
+                <div className="flex justify-between">
+                    <p className="text-base font-semibold text-[#11111199]">{read_time} min read</p>
+                    <label className="text-base font-semibold text-[#11111199]"><i ></i></label>
                 </div>
             </div>
         </div>

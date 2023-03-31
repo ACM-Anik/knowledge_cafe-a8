@@ -1,5 +1,5 @@
 import './App.css';
-import Blogs from './components/BlogsCompo/Blogs';
+import Blogs from './components/Blogs/Blogs';
 import Header from './components/Header/Header';
 
 function App() {

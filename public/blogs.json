@@ -2,61 +2,46 @@
     {
       "id": "6425eff69c3e905a222aa04a",
       "cover_picture": "https://images.unsplash.com/photo-1571171637578-41bc2dd41cd2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "picture": "http://placehold.it/32x32",
-      "author_name": "Craft Mckenzie",
-      "author_image": "",
+      "author_name": "John Mckenzie",
+      "author_image": "https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "title": "How to get your first job as a self-taught programmer",
-      "publish_date": "Mar 14 (4 Days ago)",
+      "publish_date": "Mar 17 (1 Days ago)",
       "read_time": 5
     },
     {
       "id": "6425eff6d1922c64d06252c0",
       "cover_picture": "https://burst.shopifycdn.com/photos/javascript-with-laptop-code.jpg?width=925&format=pjpg&exif=1&iptc=1",
-      "picture": "http://placehold.it/32x32",
       "author_name": "Beverley Mason",
-      "author_image": "",
+      "author_image": "https://images.unsplash.com/photo-1560250097-0b93528c311a?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
       "title": "How to get your first job as a self-taught programmer",
-      "publish_date": "Mar 14 (4 Days ago)",
+      "publish_date": "Mar 16 (2 Days ago)",
       "read_time": 5
     },
     {
       "id": "6425eff671319daa9aecb85e",
-      "cover_picture": "https://burst.shopify.com/photos/software-developer-on-php-code?q=programming",
-      "picture": "http://placehold.it/32x32",
+      "cover_picture": "https://images.unsplash.com/photo-1593720219276-0b1eacd0aef4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=861&q=80",
       "author_name": "Duran Dillard",
-      "author_image": "",
+      "author_image": "https://images.unsplash.com/photo-1570295999919-56ceb5ecca61?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
       "title": "How to get your first job as a self-taught programmer",
-      "publish_date": "Mar 14 (4 Days ago)",
+      "publish_date": "Mar 10 (8 Days ago)",
       "read_time": 5
     },
     {
       "id": "6425eff628e8d059ba977fba",
       "cover_picture": "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
-      "picture": "http://placehold.it/32x32",
-      "author_name": "Betty Mueller",
-      "author_image": "",
+      "author_name": "Betty Rose",
+      "author_image": "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=388&q=80",
       "title": "How to get your first job as a self-taught programmer",
-      "publish_date": "Mar 14 (4 Days ago)",
+      "publish_date": "Mar 12 (6 Days ago)",
       "read_time": 5
     },
     {
       "id": "6425eff629b7d55eaec5ce2f",
-      "cover_picture": "http://placehold.it/32x32",
-      "picture": "http://placehold.it/32x32",
-      "author_name": "Spears Ryan",
-      "author_image": "",
+      "cover_picture": "https://images.unsplash.com/photo-1484417894907-623942c8ee29?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1032&q=80",
+      "author_name": "Kate Spears",
+      "author_image": "https://images.unsplash.com/photo-1619895862022-09114b41f16f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
       "title": "How to get your first job as a self-taught programmer",
-      "publish_date": "Mar 14 (4 Days ago)",
-      "read_time": 5
-    },
-    {
-      "id": "6425eff67cd32a0179cb3e19",
-      "cover_picture": "http://placehold.it/32x32",
-      "picture": "http://placehold.it/32x32",
-      "author_name": "Martina Leblanc",
-      "author_image": "",
-      "title": "How to get your first job as a self-taught programmer",
-      "publish_date": "Mar 14 (4 Days ago)",
+      "publish_date": "Mar 13 (5 Days ago)",
       "read_time": 5
     }
   ]
