@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import Sidebar from '../Sidebar/Sidebar';
 import SingleBlog from '../SingleBlog/SingleBlog';
 import './Blogs.css';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const Blogs = () => {
@@ -19,7 +20,7 @@ const Blogs = () => {
     const addBookmark = (id) =>{
         const exist = bookmarked.find(marked => marked.id === id);
         if(exist) {
-            
+            toast("Already bookmarked!");
             return;
         }
         else{
